@@ -1,0 +1,42 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "Social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ann2827/devconnector.git"
+  },
+  "keywords": [
+    "react",
+    "node.js",
+    "js",
+    "javascript",
+    "express",
+    "redux",
+    "mongoDB"
+  ],
+  "author": "Ann Bystrova <ann.bystrova96@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ann2827/devconnector/issues"
+  },
+  "homepage": "https://github.com/Ann2827/devconnector#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
